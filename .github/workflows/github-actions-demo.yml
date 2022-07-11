@@ -7,4 +7,4 @@ jobs:
       - uses: actions/checkout@v2
       - run: echo "🎉 The job was automatically triggered by a ${{ github.event_name }} event."
       - run: echo "🐧 This job is now running on a ${{ runner.os }} server hosted by GitHub!"
-      - run: job.py
+      - run: python job.py
